@@ -1,0 +1,11 @@
+1. if we add () parantheses to handleClick in the addEventListener then, the function gets called as we hit refresh and not on clicking 'w'.
+2. replace handleClick by an anonymous function with the same functionality
+3. 'this' keyword is the identity of the button that triggers the event listener.
+4. constructor function 
+function BellBoy(name1, age1, hasWorkPermit1, languages1) {
+    this.name = name1;
+    this.age = age1;
+    this.hasWorkPermit = hasWorkPermit1;
+    this.languages = languages1;
+}
+var bellBoy1 = new BellBoy("Timmy", "19", true, ["English", "French"]);
